@@ -1,0 +1,26 @@
+@charset "utf8";
+@import url(reset.css);
+@import url(fonts.css);
+
+#wrap {
+    max-width: 1920px;
+
+}
+
+section {
+    max-width: 1760px;
+    max-height: 900px;
+    padding: 0 80px;
+
+}
+
+.gnb {
+    display: grid;
+    grid-template-columns: auto 1fr;
+}
+
+.gnb img {
+    width: 77px;
+    display: block;
+    height: 65px;
+}
